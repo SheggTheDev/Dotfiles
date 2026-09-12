@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo":{
+    "source": "/home/shegg/Pictures/catchyred.png",
+  	"type": "kitty-direct",
+  	"width": 23,
+  	"height": 10,
+  	"padding": {
+  	    "top": 0,
+  	    "left": 1,
+  	    "right": 2
+  	},
+    },
+  "modules": [
+    "break",
+    {"type":"os","keyColor":"#de0403"},
+    {"type":"host","keyColor":"#de0403"},
+    {"type":"shell","keyColor":"#de0403"},
+    {"type":"de","keyColor":"#de0403"},
+    {"type":"terminal","keyColor":"#de0403"},
+    {"type": "cpu", "format": "{name~9} @ {7}" ,"keyColor":"#de0403" },
+    {"type":"memory","keyColor":"#de0403"},
+    {"type":"swap","keyColor":"#de0403"}
+  ]
+}
